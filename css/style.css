@@ -1,0 +1,100 @@
+/* header */
+/* Inicio de la barra de Navegacion */
+.barra-navegacion {
+  background-color: rgba(250, 168, 74, 0.9);
+}
+
+
+
+.navbar-toggler:focus {
+    border: 2px solid black;
+    box-shadow: 0 0 0 1.5px white; }
+
+
+
+/* Final de la barra de Navegacion */
+
+/*Inicio del Buscador */
+.buscar {
+    margin: 85px 0px 20px 0px;
+}
+
+.form-control {
+    border-color: black;
+    border-radius: 3px;
+   
+}
+
+
+.btn-warning{
+    border-radius: 5%;
+    color: white;
+    background-color: rgb(250, 168, 74);
+}
+
+.btn-warning:hover {
+    border-color: rgb(173, 173, 173);
+    background-color: rgb(173, 173, 173);
+    color: white;
+}
+
+/* Final del buscador */
+/* header */
+
+/* body */
+/* Inicio del carrusel */
+
+/* Fin del carrusel */
+
+
+/* Inicio efecto parralax */
+.parallax-effecto{
+    font-size: 30px;
+    height: 170px;
+    background-image: url(../images/textura_parallax.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
+   
+
+}
+/* Fin del efecto parralax */
+
+/* Inicio de las tarjetas de compras */
+
+.card {
+    margin-top: 25px ;
+    height: 100%;
+}
+
+.card2 {
+    margin-top: 25px;
+    height: 100%;
+}
+
+.card:hover{
+
+    color: rgb(120, 186, 185);
+    outline: 2px solid rgb(135, 138, 251) ;
+    cursor: pointer;
+}
+
+
+.card-img-top {
+  object-fit:contain;
+  height: 300px;
+
+}
+
+
+/* footer */
+.derechos {
+    margin-top: 100px ;
+    font-weight: bold;
+}
+/* body */
+/* footer */
+
+/* Fin de las tarjetas de compras */
